@@ -39,7 +39,7 @@ Este comando obtendrá la última versión de Rust y la instalará, luego ejecut
 rustup update
 ```
 
-If you have installed rust already, run this command to check whether there is a new version available.
+Si ya ha instalado rust, ejecute este comando para comprobar si hay una nueva versión disponible.
 
 ## Instalar `polkadot` PoC-4
 
