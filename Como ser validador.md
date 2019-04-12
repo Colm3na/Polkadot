@@ -10,7 +10,7 @@
 !!! información
     _Este tutorial funciona con la testnet actual de Alexander y ha sido actualizada para PoC-4._
 
-Para ser un buen validador, usted debería
+Para ser un buen validador debería:
 
 - Tener DOTs para hacer el _stake_ (**Requisito básico**)
 - Mantenga su nodo actualizado con la última versión
@@ -59,9 +59,9 @@ cargo install --path ./ --force
 
 Esto puede tardar un poco dependiendo de su hardware!
 
-## Sincronizar datos de la cadena
+## Sincronizar datos de la blockchain
 
-Después de instalar todas las dependencias relacionadas, puede iniciar su nodo Polkadot. Comience a sincronizar la cadena ejecutando el siguiente comando:
+Después de instalar todas las dependencias relacionadas, puede iniciar su nodo Polkadot. Comience a sincronizar la blockchain ejecutando el siguiente comando:
 
 ```bash
 polkadot --chain alex
@@ -110,7 +110,7 @@ Seleccione su cuenta `Stash`, en nuestro caso tiene, 200mili DOTs, y haga clic e
 ![dashboard bonding](images/polkadot-dashboard-bonding.png)
 
 - **Controller account** - seleccione la cuenta `Controller`creada anteriormente.
-- **Value bonded** - cuántos DOTs de la cuenta `Stash` desea vincular/participar. No puede utilizarlo todo, ya que tendrá que pagar los gastos de transacción. Usted puede agregar esta cantidad y vincular DOTs más tarde, sin embargo, para retirar cualquier cantidad se requiere que el período de duración de la vinculación sea mayor (600 bloques en el momento de escribir este documento).
+- **Value bonded** - cuántos DOTs de la cuenta `Stash` desea vincular/participar. No puede utilizarlo todo, ya que tendrá que pagar los gastos de transacción. Puede agregar esta cantidad y vincular DOTs más tarde, sin embargo, para retirar cualquier cantidad se requiere que el período de duración de la vinculación sea mayor (600 bloques en el momento de escribir este documento).
 - **Payment destination** - donde se envían las recompensas. Más información [aquí](https://github.com/w3f/polkadot-wiki/blob/master/docs/polkadot/learn/staking.md#reward-distribution)
 
 Una vez que todo se haya introducido correctamente, haga clic en `Bond` y firme la transacción (con su cuenta de `Stash`)
